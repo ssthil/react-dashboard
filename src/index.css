@@ -85,3 +85,11 @@ body {
   color: #322b84;
   font-weight: bold;
 }
+
+.owner-list{
+  font-size: 13px;
+}
+hr {
+  margin-top: 10px !important;
+  margin-bottom: 15px !important;
+}

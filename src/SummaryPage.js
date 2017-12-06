@@ -170,7 +170,7 @@ class SummaryPage extends Component {
                                     </tr>
                                     </tbody>
                                 </table>
-                                <div>
+                                <div className="owner-list">
                                     <h5>Owner List</h5>
                                     <hr />
                                     {result[key].ownerlist.map((name, i) => (
