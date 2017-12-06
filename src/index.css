@@ -81,3 +81,7 @@ body {
   border-color: #f3f7f9 !important;
 }
 
+.panel-heading p span{
+  color: #322b84;
+  font-weight: bold;
+}

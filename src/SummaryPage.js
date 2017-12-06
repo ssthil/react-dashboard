@@ -112,7 +112,7 @@ class SummaryPage extends Component {
                 <div className="col-lg-4 col-md-6 col-sm-6" key={i}>
                     <div className="panel panel-default">
                         <div className="panel-heading">
-                        Logical Resource Name - {key}
+                            <p>Logical Resource Name: <span>{key} </span></p>
                         </div>
                         <div className="panel-body">
                             <table className="table table-layout">
