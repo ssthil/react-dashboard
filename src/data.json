@@ -1,0 +1,98 @@
+[
+    {
+        "uatfx": {
+           "allocationend": "31-12-2017",
+           "allocationstart": "01-01-2016",
+           "version": "3.1.31.5.en.16",
+           "allocationdetail": "UAT Testing",
+           "summarystatus": 0 ,
+           "ownerlist": ["Amber Xin Wang", "Fateh Lal"],
+           "healthcheckstatuses": {
+              "servicescheck_ts": "2017-11-16 13:06:10",
+              "dbaccesscheck": 0,
+              "wkflowstaskcheck": 9,
+              "ospwarmupcheck": 9,
+              "servicescheck": 9,
+              "ospwarmupcheck_ts": "2017-11-16 13:06:10",
+              "dbaccesscheck_ts": "2017-11-16 13:03:57",
+              "workflowstasksinerror": {},
+              "wkflowstaskcheck_ts": "2017-11-16 13:06:10",
+              "tradeqcheck_ts": "2017-11-16 13:06:10",
+              "tradeqcheck": 5
+           },
+           "findbconnstring": "MX3_FX/MX3_FX_123@uklpdudel01a.uk.dev.net:1621/VUK11RAZ"
+        }
+     },
+     {
+        "reg_db_fx": {
+           "allocationend": "30-11-2017",
+           "allocationstart": "01-02-2016",
+           "version": "3.1.31.5.en.16",
+           "allocationdetail": "Regression Testing FX Environment",
+           "summarystatus": 1 ,
+           "ownerlist": ["Chi Xin Wang", "David Xi"],
+           "healthcheckstatuses": {
+              "servicescheck_ts": "2017-11-16 13:06:11",
+              "dbaccesscheck": 0,
+              "wkflowstaskcheck": 9,
+              "ospwarmupcheck": 9,
+              "servicescheck": 1,
+              "ospwarmupcheck_ts": "2017-11-16 13:06:10",
+              "dbaccesscheck_ts": "2017-11-16 13:03:57",
+              "workflowstasksinerror": {},
+              "wkflowstaskcheck_ts": "2017-11-16 13:06:10",
+              "tradeqcheck_ts": "2017-11-16 13:06:10",
+              "tradeqcheck": 5
+           },
+           "findbconnstring": "MX3_FX/MX3_FX_123@uklpdudel01a.uk.dev.net:1621/VUK11RAZ"
+        }
+     },
+     {
+        "uatalm": {
+           "allocationend": "30-11-2017",
+           "allocationstart": "01-02-2016",
+           "version": "3.1.31.5.en.16",
+           "allocationdetail": "Regression Testing FX Environment",
+           "summarystatus": 5 ,
+           "ownerlist": ["Cheng Li", "Ji Chong"],
+           "healthcheckstatuses": {
+              "servicescheck_ts": "2017-11-16 13:06:11",
+              "dbaccesscheck": 0,
+              "wkflowstaskcheck": 9,
+              "ospwarmupcheck": 9,
+              "servicescheck": 9,
+              "ospwarmupcheck_ts": "2017-11-16 13:06:10",
+              "dbaccesscheck_ts": "2017-11-16 13:03:57",
+              "workflowstasksinerror": {},
+              "wkflowstaskcheck_ts": "2017-11-16 13:06:10",
+              "tradeqcheck_ts": "2017-11-16 13:06:10",
+              "tradeqcheck": 1
+           },
+           "findbconnstring": "MX3_FX/MX3_FX_123@uklpdudel01a.uk.dev.net:1621/VUK11RAZ"
+        }
+     },
+     {
+        "reg_db_fx": {
+           "allocationend": "30-11-2017",
+           "allocationstart": "01-02-2016",
+           "version": "3.1.31.5.en.16",
+           "allocationdetail": "Regression Testing FX Environment",
+           "summarystatus": 1 ,
+           "ownerlist": ["Alex Miller", "David Smith"],
+           "healthcheckstatuses": {
+              "servicescheck_ts": "2017-11-16 13:06:11",
+              "dbaccesscheck": 0,
+              "wkflowstaskcheck": 5,
+              "ospwarmupcheck": 9,
+              "servicescheck": 1,
+              "ospwarmupcheck_ts": "2017-11-16 13:06:10",
+              "dbaccesscheck_ts": "2017-11-16 13:03:57",
+              "workflowstasksinerror": {},
+              "wkflowstaskcheck_ts": "2017-11-16 13:06:10",
+              "tradeqcheck_ts": "2017-11-16 13:06:10",
+              "tradeqcheck": 9
+           },
+           "findbconnstring": "MX3_FX/MX3_FX_123@uklpdudel01a.uk.dev.net:1621/VUK11RAZ"
+        }
+     }
+]
