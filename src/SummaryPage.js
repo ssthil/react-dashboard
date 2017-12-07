@@ -60,12 +60,21 @@ class SummaryPage extends Component {
         }))
     }
 
-    newFetchData() {
-        fetch('https://api.myjson.com/bins/6o5kv')
+    newFetchData() { 
+        fetch('https://api.myjson.com/bins/6o5kv')  //'https://api.myjson.com/bins/6o5kv'
         .then( data => data.json())
         .then( result => this.setState({
             newData: result
-        }))
+        })) 
+
+        /*fetch("https://api.myjson.com/bins/qhw0v").then(function(res) {
+            // res instanceof Response == true.
+            if (res.ok) {
+              res.json().then(function(data) {
+                console.log(data.response);
+              });
+            } 
+          });*/
     }
     
 
