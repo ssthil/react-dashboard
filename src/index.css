@@ -93,3 +93,11 @@ hr {
   margin-top: 10px !important;
   margin-bottom: 15px !important;
 }
+
+.minHeight {
+      min-height: 320px !important;
+  }
+  .text-error{
+    color:red;
+    font-size: 13px;
+  }

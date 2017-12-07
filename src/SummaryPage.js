@@ -5,7 +5,7 @@ import PanelFooter from './PanelFooter';
 
 import {Button, Modal} from 'react-bootstrap';
 import { TestNames } from './TestNamesConfig';
-//import data from './data.json';
+//import newData from './data-new.json';
 
 /* const testNames = {
     coreServices: "Core Services",
@@ -23,7 +23,8 @@ class SummaryPage extends Component {
         this.state = {
             data : [],
             showModal: false,
-            setKeyName: ''
+            setKeyName: '',
+            newData:[]
         }
     }
 
@@ -44,9 +45,11 @@ class SummaryPage extends Component {
 
     componentDidMount() {
         /* this.setState({
-            data: data
+            newData: newData
         }) */
         this.fetchData();
+        this.newFetchData()
+        
     }
 
     fetchData() {
@@ -56,6 +59,15 @@ class SummaryPage extends Component {
             data: result
         }))
     }
+
+    newFetchData() {
+        fetch('https://api.myjson.com/bins/6o5kv')
+        .then( data => data.json())
+        .then( result => this.setState({
+            newData: result
+        }))
+    }
+    
 
     dynamicClassname(result, key, service) { 
         switch(result[key].healthcheckstatuses[service]) {
@@ -87,8 +99,8 @@ class SummaryPage extends Component {
         }
     }
 
-    summaryStatusIcon(result, key) {
-        switch(result[key].summarystatus) {
+    summaryStatusIcon(result, key) { 
+        switch(result[key].summaryStatus) {
             case 0:
                 return <span className="glyphicon glyphicon-ok text-success" aria-hidden="true"></span>;
             case 1:
@@ -109,11 +121,32 @@ class SummaryPage extends Component {
     }
 
     render() {
-        const Results = this.state.data.map( (result, i) => {
+        /* Object.keys(this.state.newData).map( (data) => {
+            console.log(data);
+        }) */
+
+        let list = []
+
+        for (var key in this.state.newData) {
+            if (this.state.newData.hasOwnProperty(key)) {
+               // console.log(key + " -> " + this.state.newData[key].version);
+
+               let newObject = {}
+               newObject[key] = this.state.newData[key]
+                // console.log(newObject);
+
+                list = [...list, newObject]; 
+                //console.log(list)               
+
+            }
+        }
+        //console.log(this.state.data);
+        //console.log(this.state.newData);
+        const Results = list.map( (result, i) => {
             const key = Object.keys(result)[0]
             //console.log(i);
             return (
-                <div className="col-lg-4 col-md-6 col-sm-6" key={i}>
+                <div className="col-lg-4 col-md-6 col-sm-6 minHeight" key={i}>
                     <div className="panel panel-default">
                         <div className="panel-heading">
                             <p>Logical Resource Name: <span>{key} </span></p>
@@ -151,36 +184,47 @@ class SummaryPage extends Component {
                                 
                                 <table className="table table-bordered">
                                     <TableHeader />
-                                    <tbody>     
-                                    <tr className={this.dynamicClassname(result, key, 'servicescheck')}>
-                                        <td>{testNames[0]}</td>
-                                        <td>{this.dynamicIconForStatus(result, key, "servicescheck")}</td>
-                                        <td>{result[key].healthcheckstatuses.servicescheck_ts}</td>
-                                    </tr>
-                                    <tr className={this.dynamicClassname(result, key, 'tradeqcheck')}>
-                                        <td>{testNames[1]}</td>
-                                        <td>{this.dynamicIconForStatus(result, key, "tradeqcheck")}</td>
-                                        <td>{result[key].healthcheckstatuses.tradeqcheck_ts}</td>
-                                    </tr>
-                                    <tr className={this.dynamicClassname(result, key, 'wkflowstaskcheck')}>
-                                        <td>{testNames[2]}</td>
-                                        <td>{this.dynamicIconForStatus(result, key, "wkflowstaskcheck")}</td>
-                                    <td>{result[key].healthcheckstatuses.wkflowstaskcheck_ts}</td>
-                                    </tr>
-                                    <tr className={this.dynamicClassname(result, key, 'dbaccesscheck')}>
-                                        <td>{testNames[3]}</td>
-                                        <td>{this.dynamicIconForStatus(result, key, "dbaccesscheck")}</td>
-                                    <td>{result[key].healthcheckstatuses.dbaccesscheck_ts}</td>
-                                    </tr>
-                                    </tbody>
+                                    {result[key].healthcheckstatuses ? 
+                                            <tbody>
+                                            <tr className={this.dynamicClassname(result, key, 'servicescheck')}>
+                                                <td>{testNames[0]}</td>
+                                                <td>{this.dynamicIconForStatus(result, key, "servicescheck")}</td>
+                                                <td>{result[key].healthcheckstatuses.servicescheck_ts}</td>
+                                            </tr>
+                                            <tr className={this.dynamicClassname(result, key, 'tradeqcheck')}>
+                                                <td>{testNames[1]}</td>
+                                                <td>{this.dynamicIconForStatus(result, key, "tradeqcheck")}</td>
+                                                <td>{result[key].healthcheckstatuses.tradeqcheck_ts}</td>
+                                            </tr>
+                                            <tr className={this.dynamicClassname(result, key, 'wkflowstaskcheck')}>
+                                                <td>{testNames[2]}</td>
+                                                <td>{this.dynamicIconForStatus(result, key, "wkflowstaskcheck")}</td>
+                                            <td>{result[key].healthcheckstatuses.wkflowstaskcheck_ts}</td>
+                                            </tr>
+                                            <tr className={this.dynamicClassname(result, key, 'dbaccesscheck')}>
+                                                <td>{testNames[3]}</td>
+                                                <td>{this.dynamicIconForStatus(result, key, "dbaccesscheck")}</td>
+                                            <td>{result[key].healthcheckstatuses.dbaccesscheck_ts}</td>
+                                            </tr>
+                                            </tbody> : 
+                                            <tbody>
+                                                <tr className="text-error">
+                                                    <td colSpan="3">Information is not available</td>
+                                                </tr>
+                                            </tbody>
+                                    }
                                 </table>
-                                <div className="owner-list">
-                                    <h5>Owner List</h5>
-                                    <hr />
-                                    {result[key].ownerlist.map((name, i) => (
-                                        <p key={i}>{name}</p>
-                                    ))}
-                                </div>
+                                {result[key].ownerlist && 
+                                    <div className="owner-list">
+                                        <h5>Owner List</h5>
+                                        <hr />
+                                        {/* result[key].ownerlist.map((name, i) => (
+                                            <p key={i}>{name}</p>
+                                        )) */
+                                        result[key].ownerlist
+                                        }
+                                    </div>
+                                }
                                 
                             </Modal.Body>
                             <PanelFooter panelFooterData = {result}/>

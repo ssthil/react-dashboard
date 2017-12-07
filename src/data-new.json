@@ -1,0 +1,744 @@
+
+    {
+      "mig_build_alm": {
+        "summaryStatus": 1,
+        "allocationend": "31-12-2017",
+        "allocationstart": "01-09-2017",
+        "version": "",
+        "allocationdetail": "Staging for UAT",
+        "findbconnstring": "MX3_ALM/MX3_ALM_123@uklpdudasa-scan.uk:1621/VUK07RAZ"
+      },
+      "fxcomp": {
+        "summaryStatus": 5,
+        "allocationend": "31-12-2017",
+        "allocationstart": "01-09-2017",
+        "version": "3.1.31.5.en.16",
+        "allocationdetail": "Allocation Details not Entered.",
+        "findbconnstring": "MX3_FX_DEV_10/*******@uklpdddasa-scan.uk:1622/MX3_FX_FI_DEV.uk.standardchartered.com"
+      },
+      "dev_bau5_alm": {
+        "summaryStatus": 5,
+        "allocationend": "31-12-2017",
+        "allocationstart": "01-09-2017",
+        "version": "3.1.31.5.en.16",
+        "allocationdetail": "Allocation Details not Entered.",
+        "findbconnstring": "MX3_ALM_DEV_09/*******@uklpdddasa-scan.uk:1622/MX3_ALM_FI_DEV.uk.standardchartered.com"
+      },
+      "env_awa_fx": {
+        "summaryStatus": 5,
+        "allocationend": "01-01-1900",
+        "allocationstart": "01-01-1900",
+        "ownerlist": "Not Available",
+        "version": "",
+        "allocationdetail": "No Historical Allocation Found for this Environment.",
+        "healthcheckstatuses": {
+          "servicescheck_ts": "Not Available",
+          "dbaccesscheck": 9,
+          "wkflowstaskcheck": 9,
+          "ospwarmupcheck": 9,
+          "servicescheck": 9,
+          "ospwarmupcheck_ts": "Not Available",
+          "workflowstasksinerror": "Not Available",
+          "dbaccesscheck_ts": "Not Available",
+          "wkflowstaskcheck_ts": "Not Available",
+          "tradeqcheck_ts": "Not Available",
+          "tradeqcheck": 9
+        },
+        "findbconnstring": ""
+      },
+      "dev_bau1_fx": {
+        "summaryStatus": 5,
+        "allocationend": "31-12-2017",
+        "allocationstart": "01-01-2017",
+        "version": "3.1.31.5.en.16",
+        "allocationdetail": "TEDA Enhancement Squad Dev Env",
+        "findbconnstring": "MX3_FX_DEV_04/*******@uklpdddasa-scan.uk:1622/MX3_FX_FI_DEV.uk.standardchartered.com"
+      },
+      "mig_ref_alm": {
+        "summaryStatus": 5,
+        "allocationend": "31-01-2018",
+        "allocationstart": "07-09-2017",
+        "version": "3.1.31.5.en.16",
+        "allocationdetail": "Allocation Details not Entered.",
+        "findbconnstring": "MX3_ALM_DEV_01/*******@uklpdddasa-scan.uk:1622/MX3_ALM_FI_DEV.uk.standardchartered.com"
+      },
+      "dev_bau5_fx": {
+        "summaryStatus": 5,
+        "allocationend": "31-12-2017",
+        "allocationstart": "01-09-2017",
+        "version": "3.1.31.5.en.17",
+        "allocationdetail": "Allocation Details not Entered.",
+        "findbconnstring": "MX3_FX_DEV_09/*******@uklpdddasa-scan.uk:1622/MX3_FX_FI_DEV.uk.standardchartered.com"
+      },
+      "uatfx": {
+        "summaryStatus": 5,
+        "allocationend": "31-12-2017",
+        "allocationstart": "01-01-2017",
+        "version": "3.1.31.5.en.16",
+        "allocationdetail": "UAT Testing",
+        "findbconnstring": "MX3_FX/*******@uklpdudel01a.uk.dev.net:1621/VUK12RAZ"
+      },
+      "pss_audit_fx": {
+        "summaryStatus": 1,
+        "allocationend": "31-12-2017",
+        "allocationstart": "01-01-2016",
+        "version": "3.1.31.5.en.16",
+        "allocationdetail": "PSS Audit FX Env",
+        "findbconnstring": "MX3_FX_UAT_69/*******@uklpdudasa-scan.uk:1622/MX3_FX_FI_UAT.uk.standardchartered.com"
+      },
+      "pss_eodfx": {
+        "summaryStatus": 1,
+        "allocationend": "31-12-2017",
+        "allocationstart": "01-01-2016",
+        "version": "3.1.31.5.en.16",
+        "allocationdetail": "For troubleshooting of production issues",
+        "findbconnstring": "MX3_FX_MIG_PF_05/*******@uklpdudasa-scan.uk:1622/MX3_FX_FI_UAT.uk.standardchartered.com"
+      },
+      "pssfx_snap": {
+        "summaryStatus": 1,
+        "allocationend": "31-12-2017",
+        "allocationstart": "01-08-2016",
+        "version": "",
+        "allocationdetail": "PSS Daily Refresh Environment",
+        "findbconnstring": "MX3_FX/MX3_FX_123@uklpdudasa-scan.uk:1622/VUK11RAZ"
+      },
+      "env_restrict_fx": {
+        "summaryStatus": 1,
+        "allocationend": "31-12-2017",
+        "allocationstart": "01-05-2017",
+        "version": "3.1.31.5.en.16",
+        "allocationdetail": "Masking Environment",
+        "findbconnstring": "MX3_FX_UAT_70/*******@uklpdudasa-scan.uk:1622/MX3_FX_FI_UAT.uk.standardchartered.com"
+      },
+      "dev_bau1_alm": {
+        "summaryStatus": 1,
+        "allocationend": "31-12-2017",
+        "allocationstart": "01-01-2017",
+        "version": "3.1.31.5.en.16",
+        "allocationdetail": "TEDA Enhancement Squad Dev Env",
+        "findbconnstring": "MX3_ALM_DEV_04/*******@uklpdddasa-scan.uk:1622/MX3_ALM_FI_DEV.uk.standardchartered.com"
+      },
+      "reg_baseline_fx": {
+        "summaryStatus": 1,
+        "allocationend": "01-01-1900",
+        "allocationstart": "01-01-1900",
+        "version": "3.1.31.5.en.16",
+        "allocationdetail": "No Historical Allocation Found for this Environment.",
+        "findbconnstring": "MX3_FX_UAT_36/*******@uklpdudasa-scan.uk:1622/MX3_FX_FI_UAT.uk.standardchartered.com"
+      },
+      "dev_bau3_fx": {
+        "summaryStatus": 1,
+        "allocationend": "31-12-2017",
+        "allocationstart": "01-01-2017",
+        "version": "3.1.31.5.en.16",
+        "allocationdetail": "SG Enhancement Squad Dev Env",
+        "findbconnstring": "MX3_FX_DEV_14/*******@uklpdddasa-scan.uk:1622/MX3_FX_FI_DEV.uk.standardchartered.com"
+      },
+      "mig_dev_alm": {
+        "summaryStatus": 5,
+        "allocationend": "31-01-2018",
+        "allocationstart": "07-09-2017",
+        "version": "3.1.31.5.en.16",
+        "allocationdetail": "Allocation Details not Entered.",
+        "findbconnstring": "MX3_ALM_UAT_34/*******@uklpdudasa-scan.uk:1622/MX3_ALM_FI_UAT.uk.standardchartered.com"
+      },
+      "vm_fx": {
+        "summaryStatus": 5,
+        "allocationend": "01-01-1900",
+        "allocationstart": "01-01-1900",
+        "ownerlist": "Not Available",
+        "version": "",
+        "allocationdetail": "No Historical Allocation Found for this Environment.",
+        "healthcheckstatuses": {
+          "servicescheck_ts": "Not Available",
+          "dbaccesscheck": 9,
+          "wkflowstaskcheck": 9,
+          "ospwarmupcheck": 9,
+          "servicescheck": 9,
+          "ospwarmupcheck_ts": "Not Available",
+          "workflowstasksinerror": "Not Available",
+          "dbaccesscheck_ts": "Not Available",
+          "wkflowstaskcheck_ts": "Not Available",
+          "tradeqcheck_ts": "Not Available",
+          "tradeqcheck": 9
+        },
+        "findbconnstring": ""
+      },
+      "mruat_fx": {
+        "summaryStatus": 1,
+        "allocationend": "31-08-2017",
+        "allocationstart": "01-05-2017",
+        "version": "3.1.31.5.en.15",
+        "allocationdetail": "Country Rollout/Migration (US, Brazil)",
+        "findbconnstring": "MX3_FX_DEV_12/*******@uklpdddasa-scan.uk:1622/MX3_FX_FI_DEV.uk.standardchartered.com"
+      },
+      "dev_daily_alm": {
+        "summaryStatus": 5,
+        "allocationend": "31-12-2017",
+        "allocationstart": "11-09-2017",
+        "version": "3.1.31.5.en.16",
+        "allocationdetail": "Allocation Details not Entered.",
+        "findbconnstring": "MX3_ALM_DEV_07/*******@uklpdddasa-scan.uk:1622/MX3_ALM_FI_DEV.uk.standardchartered.com"
+      },
+      "pssalm": {
+        "summaryStatus": 1,
+        "allocationend": "31-12-2017",
+        "allocationstart": "01-01-2016",
+        "version": "3.1.31.5.en.16",
+        "allocationdetail": "PSS ALM BAU Env",
+        "findbconnstring": "MX3_ALM_UAT_31/*******@uklpdudasa-scan.uk:1622/MX3_ALM_FI_UAT.uk.standardchartered.com"
+      },
+      "env_patch_alm": {
+        "summaryStatus": 5,
+        "allocationend": "01-01-1900",
+        "allocationstart": "01-01-1900",
+        "ownerlist": "Not Available",
+        "version": "",
+        "allocationdetail": "No Historical Allocation Found for this Environment.",
+        "healthcheckstatuses": {
+          "servicescheck_ts": "Not Available",
+          "dbaccesscheck": 9,
+          "wkflowstaskcheck": 9,
+          "ospwarmupcheck": 9,
+          "servicescheck": 9,
+          "ospwarmupcheck_ts": "Not Available",
+          "workflowstasksinerror": "Not Available",
+          "dbaccesscheck_ts": "Not Available",
+          "wkflowstaskcheck_ts": "Not Available",
+          "tradeqcheck_ts": "Not Available",
+          "tradeqcheck": 9
+        },
+        "findbconnstring": ""
+      },
+      "env_patch_fx": {
+        "summaryStatus": 5,
+        "allocationend": "01-01-1900",
+        "allocationstart": "01-01-1900",
+        "ownerlist": "Not Available",
+        "version": "",
+        "allocationdetail": "No Historical Allocation Found for this Environment.",
+        "healthcheckstatuses": {
+          "servicescheck_ts": "Not Available",
+          "dbaccesscheck": 9,
+          "wkflowstaskcheck": 9,
+          "ospwarmupcheck": 9,
+          "servicescheck": 9,
+          "ospwarmupcheck_ts": "Not Available",
+          "workflowstasksinerror": "Not Available",
+          "dbaccesscheck_ts": "Not Available",
+          "wkflowstaskcheck_ts": "Not Available",
+          "tradeqcheck_ts": "Not Available",
+          "tradeqcheck": 9
+        },
+        "findbconnstring": ""
+      },
+      "env_restrict_alm": {
+        "summaryStatus": 1,
+        "allocationend": "31-12-2017",
+        "allocationstart": "01-05-2017",
+        "version": "3.1.31.5.en.16",
+        "allocationdetail": "Masking Environment",
+        "findbconnstring": "MX3_ALM_UAT_70/*******@uklpdudasa-scan.uk:1622/MX3_ALM_FI_UAT.uk.standardchartered.com"
+      },
+      "dev_keep_alm": {
+        "summaryStatus": 5,
+        "allocationend": "01-01-1900",
+        "allocationstart": "01-01-1900",
+        "ownerlist": "Not Available",
+        "version": "",
+        "allocationdetail": "No Historical Allocation Found for this Environment.",
+        "healthcheckstatuses": {
+          "servicescheck_ts": "Not Available",
+          "dbaccesscheck": 9,
+          "wkflowstaskcheck": 9,
+          "ospwarmupcheck": 9,
+          "servicescheck": 9,
+          "ospwarmupcheck_ts": "Not Available",
+          "workflowstasksinerror": "Not Available",
+          "dbaccesscheck_ts": "Not Available",
+          "wkflowstaskcheck_ts": "Not Available",
+          "tradeqcheck_ts": "Not Available",
+          "tradeqcheck": 9
+        },
+        "findbconnstring": ""
+      },
+      "bau_git_alm": {
+        "summaryStatus": 5,
+        "allocationend": "01-01-1900",
+        "allocationstart": "01-01-1900",
+        "ownerlist": "Not Available",
+        "version": "",
+        "allocationdetail": "No Historical Allocation Found for this Environment.",
+        "healthcheckstatuses": {
+          "servicescheck_ts": "Not Available",
+          "dbaccesscheck": 9,
+          "wkflowstaskcheck": 9,
+          "ospwarmupcheck": 9,
+          "servicescheck": 9,
+          "ospwarmupcheck_ts": "Not Available",
+          "workflowstasksinerror": "Not Available",
+          "dbaccesscheck_ts": "Not Available",
+          "wkflowstaskcheck_ts": "Not Available",
+          "tradeqcheck_ts": "Not Available",
+          "tradeqcheck": 9
+        },
+        "findbconnstring": ""
+      },
+      "mig_dev_fx": {
+        "summaryStatus": 5,
+        "allocationend": "31-12-2017",
+        "allocationstart": "15-05-2017",
+        "version": "3.1.31.5.en.16",
+        "allocationdetail": "NDF Development",
+        "findbconnstring": "MX3_FX_UAT_34/*******@uklpdudasa-scan.uk:1622/MX3_FX_FI_UAT.uk.standardchartered.com"
+      },
+      "delphix_alm": {
+        "summaryStatus": 5,
+        "allocationend": "01-01-1900",
+        "allocationstart": "01-01-1900",
+        "ownerlist": "Not Available",
+        "version": "",
+        "allocationdetail": "No Historical Allocation Found for this Environment.",
+        "healthcheckstatuses": {
+          "servicescheck_ts": "Not Available",
+          "dbaccesscheck": 9,
+          "wkflowstaskcheck": 9,
+          "ospwarmupcheck": 9,
+          "servicescheck": 9,
+          "ospwarmupcheck_ts": "Not Available",
+          "workflowstasksinerror": "Not Available",
+          "dbaccesscheck_ts": "Not Available",
+          "wkflowstaskcheck_ts": "Not Available",
+          "tradeqcheck_ts": "Not Available",
+          "tradeqcheck": 9
+        },
+        "findbconnstring": ""
+      },
+      "mig_fv_alm": {
+        "summaryStatus": 5,
+        "allocationend": "31-12-2017",
+        "allocationstart": "17-04-2017",
+        "version": "3.1.31.5.en.16",
+        "allocationdetail": "Test Automation",
+        "findbconnstring": "MX3_ALM_UAT_37/*******@uklpdudasa-scan.uk:1622/MX3_ALM_FI_UAT.uk.standardchartered.com"
+      },
+      "country_alm": {
+        "summaryStatus": 1,
+        "allocationend": "31-12-2017",
+        "allocationstart": "01-09-2017",
+        "version": "",
+        "allocationdetail": "Allocation Details not Entered.",
+        "findbconnstring": "MX3_ALM_UAT_72/MX3_ALM_UAT_72_123@uklpdudasa-scan.uk:1622/MX3_ALM_FI_UAT.uk.standardchartered.com"
+      },
+      "pssfx": {
+        "summaryStatus": 5,
+        "allocationend": "31-12-2017",
+        "allocationstart": "01-01-2016",
+        "version": "3.1.31.5.en.16",
+        "allocationdetail": "Production issues",
+        "findbconnstring": "MX3_FX_UAT_31/*******@uklpdudasa-scan.uk:1622/MX3_FX_FI_UAT.uk.standardchartered.com"
+      },
+      "delphix_fx": {
+        "summaryStatus": 5,
+        "allocationend": "01-01-1900",
+        "allocationstart": "01-01-1900",
+        "ownerlist": "Not Available",
+        "version": "",
+        "allocationdetail": "No Historical Allocation Found for this Environment.",
+        "healthcheckstatuses": {
+          "servicescheck_ts": "Not Available",
+          "dbaccesscheck": 9,
+          "wkflowstaskcheck": 9,
+          "ospwarmupcheck": 9,
+          "servicescheck": 9,
+          "ospwarmupcheck_ts": "Not Available",
+          "workflowstasksinerror": "Not Available",
+          "dbaccesscheck_ts": "Not Available",
+          "wkflowstaskcheck_ts": "Not Available",
+          "tradeqcheck_ts": "Not Available",
+          "tradeqcheck": 9
+        },
+        "findbconnstring": ""
+      },
+      "mig_fv_fx": {
+        "summaryStatus": 5,
+        "allocationend": "31-12-2017",
+        "allocationstart": "24-04-2017",
+        "version": "3.1.31.5.en.16",
+        "allocationdetail": "Test Automation",
+        "findbconnstring": "MX3_FX_UAT_37/*******@uklpdudasa-scan.uk:1622/MX3_FX_FI_UAT.uk.standardchartered.com"
+      },
+      "pocfx": {
+        "summaryStatus": 1,
+        "allocationend": "31-12-2017",
+        "allocationstart": "01-06-2016",
+        "version": "3.1.31.5.en.16",
+        "allocationdetail": "DevOps",
+        "findbconnstring": "MX3_FX_MIG_PF_06/*******@uklpdudasa-scan.uk:1622/MX3_FX_FI_UAT.uk.standardchartered.com"
+      },
+      "pocreform_alm": {
+        "summaryStatus": 1,
+        "allocationend": "31-08-2017",
+        "allocationstart": "12-04-2017",
+        "version": "3.1.31.5.en.15",
+        "allocationdetail": "DevOps",
+        "findbconnstring": "MX3_ALM_DEV_14/*******@uklpdddasa-scan.uk:1622/MX3_FX_FI_DEV.uk.standardchartered.com"
+      },
+      "bau_gold_fx": {
+        "summaryStatus": 5,
+        "allocationend": "01-01-1900",
+        "allocationstart": "01-01-1900",
+        "ownerlist": "Not Available",
+        "version": "",
+        "allocationdetail": "No Historical Allocation Found for this Environment.",
+        "healthcheckstatuses": {
+          "servicescheck_ts": "Not Available",
+          "dbaccesscheck": 9,
+          "wkflowstaskcheck": 9,
+          "ospwarmupcheck": 9,
+          "servicescheck": 9,
+          "ospwarmupcheck_ts": "Not Available",
+          "workflowstasksinerror": "Not Available",
+          "dbaccesscheck_ts": "Not Available",
+          "wkflowstaskcheck_ts": "Not Available",
+          "tradeqcheck_ts": "Not Available",
+          "tradeqcheck": 9
+        },
+        "findbconnstring": ""
+      },
+      "autoalm": {
+        "summaryStatus": 5,
+        "allocationend": "31-12-2017",
+        "allocationstart": "01-01-2017",
+        "ownerlist": "Not Available",
+        "version": "",
+        "allocationdetail": "Testing Automation",
+        "healthcheckstatuses": {
+          "servicescheck_ts": "Not Available",
+          "dbaccesscheck": 9,
+          "wkflowstaskcheck": 9,
+          "ospwarmupcheck": 9,
+          "servicescheck": 9,
+          "ospwarmupcheck_ts": "Not Available",
+          "workflowstasksinerror": "Not Available",
+          "dbaccesscheck_ts": "Not Available",
+          "wkflowstaskcheck_ts": "Not Available",
+          "tradeqcheck_ts": "Not Available",
+          "tradeqcheck": 9
+        },
+        "findbconnstring": ""
+      },
+      "dev_fo_fx": {
+        "summaryStatus": 1,
+        "allocationend": "08-05-2017",
+        "allocationstart": "01-01-2017",
+        "version": "3.1.31.5.en.15",
+        "allocationdetail": "SG Enhancement Squad Dev Env",
+        "findbconnstring": "MX3_FX_DEV_06/*******@uklpdddasa-scan.uk:1622/MX3_FX_FI_DEV.uk.standardchartered.com"
+      },
+      "dev_bau3_alm": {
+        "summaryStatus": 5,
+        "allocationend": "31-12-2017",
+        "allocationstart": "01-01-2017",
+        "version": "3.1.31.5.en.16",
+        "allocationdetail": "SG Enhancement Squad Dev Env",
+        "findbconnstring": "MX3_ALM_DEV_06/*******@uklpdddasa-scan.uk:1622/MX3_ALM_FI_DEV.uk.standardchartered.com"
+      },
+      "dev_daily_fx": {
+        "summaryStatus": 5,
+        "allocationend": "30-11-2017",
+        "allocationstart": "21-08-2017",
+        "version": "3.1.31.5.en.16",
+        "allocationdetail": "Allocation Details not Entered.",
+        "findbconnstring": "MX3_FX_DEV_07/*******@uklpdddasa-scan.uk:1622/MX3_FX_FI_DEV.uk.standardchartered.com"
+      },
+      "dev_broker_fx": {
+        "summaryStatus": 1,
+        "allocationend": "28-10-2017",
+        "allocationstart": "11-09-2017",
+        "version": "3.1.31.5.en.17",
+        "allocationdetail": "Allocation Details not Entered.",
+        "findbconnstring": "MX3_FX_DEV_17/*******@uklpdddasa-scan.uk:1622/MX3_FX_FI_DEV.uk.standardchartered.com"
+      },
+      "mig_ref_fx": {
+        "summaryStatus": 5,
+        "allocationend": "31-01-2018",
+        "allocationstart": "07-09-2017",
+        "version": "3.1.31.5.en.16",
+        "allocationdetail": "Allocation Details not Entered.",
+        "findbconnstring": "MX3_FX_DEV_01/*******@uklpdddasa-scan.uk:1622/MX3_FX_FI_DEV.uk.standardchartered.com"
+      },
+      "dev_bau2_fx": {
+        "summaryStatus": 1,
+        "allocationend": "31-12-2017",
+        "allocationstart": "15-05-2017",
+        "version": "3.1.31.5.en.16",
+        "allocationdetail": "PIF Environment",
+        "findbconnstring": "MX3_FX_DEV_03/*******@uklpdddasa-scan.uk:1622/MX3_FX_FI_DEV.uk.standardchartered.com"
+      },
+      "goldfx": {
+        "summaryStatus": 5,
+        "allocationend": "31-12-2017",
+        "allocationstart": "18-10-2016",
+        "ownerlist": "Not Available",
+        "version": "3.1.31.5.en.16",
+        "allocationdetail": "Gold Configurations Environment for FX",
+        "healthcheckstatuses": {
+          "servicescheck_ts": "Not Available",
+          "dbaccesscheck": 9,
+          "wkflowstaskcheck": 9,
+          "ospwarmupcheck": 9,
+          "servicescheck": 9,
+          "ospwarmupcheck_ts": "Not Available",
+          "workflowstasksinerror": "Not Available",
+          "dbaccesscheck_ts": "Not Available",
+          "wkflowstaskcheck_ts": "Not Available",
+          "tradeqcheck_ts": "Not Available",
+          "tradeqcheck": 9
+        },
+        "findbconnstring": ""
+      },
+      "bau_gold_alm": {
+        "summaryStatus": 5,
+        "allocationend": "01-01-1900",
+        "allocationstart": "01-01-1900",
+        "ownerlist": "Not Available",
+        "version": "",
+        "allocationdetail": "No Historical Allocation Found for this Environment.",
+        "healthcheckstatuses": {
+          "servicescheck_ts": "Not Available",
+          "dbaccesscheck": 9,
+          "wkflowstaskcheck": 9,
+          "ospwarmupcheck": 9,
+          "servicescheck": 9,
+          "ospwarmupcheck_ts": "Not Available",
+          "workflowstasksinerror": "Not Available",
+          "dbaccesscheck_ts": "Not Available",
+          "wkflowstaskcheck_ts": "Not Available",
+          "tradeqcheck_ts": "Not Available",
+          "tradeqcheck": 9
+        },
+        "findbconnstring": ""
+      },
+      "goldalm": {
+        "summaryStatus": 5,
+        "allocationend": "31-12-2017",
+        "allocationstart": "18-10-2016",
+        "ownerlist": "Not Available",
+        "version": "3.1.31.5.en.16",
+        "allocationdetail": "Gold Configurations Environment for ALM",
+        "healthcheckstatuses": {
+          "servicescheck_ts": "Not Available",
+          "dbaccesscheck": 9,
+          "wkflowstaskcheck": 9,
+          "ospwarmupcheck": 9,
+          "servicescheck": 9,
+          "ospwarmupcheck_ts": "Not Available",
+          "workflowstasksinerror": "Not Available",
+          "dbaccesscheck_ts": "Not Available",
+          "wkflowstaskcheck_ts": "Not Available",
+          "tradeqcheck_ts": "Not Available",
+          "tradeqcheck": 9
+        },
+        "findbconnstring": ""
+      },
+      "gvmfx": {
+        "summaryStatus": 5,
+        "allocationend": "01-01-1900",
+        "allocationstart": "01-01-1900",
+        "ownerlist": "Not Available",
+        "version": "",
+        "allocationdetail": "No Historical Allocation Found for this Environment.",
+        "healthcheckstatuses": {
+          "servicescheck_ts": "Not Available",
+          "dbaccesscheck": 9,
+          "wkflowstaskcheck": 9,
+          "ospwarmupcheck": 9,
+          "servicescheck": 9,
+          "ospwarmupcheck_ts": "Not Available",
+          "workflowstasksinerror": "Not Available",
+          "dbaccesscheck_ts": "Not Available",
+          "wkflowstaskcheck_ts": "Not Available",
+          "tradeqcheck_ts": "Not Available",
+          "tradeqcheck": 9
+        },
+        "findbconnstring": ""
+      },
+      "bau_git_fx": {
+        "summaryStatus": 5,
+        "allocationend": "01-01-1900",
+        "allocationstart": "01-01-1900",
+        "ownerlist": "Not Available",
+        "version": "",
+        "allocationdetail": "No Historical Allocation Found for this Environment.",
+        "healthcheckstatuses": {
+          "servicescheck_ts": "Not Available",
+          "dbaccesscheck": 9,
+          "wkflowstaskcheck": 9,
+          "ospwarmupcheck": 9,
+          "servicescheck": 9,
+          "ospwarmupcheck_ts": "Not Available",
+          "workflowstasksinerror": "Not Available",
+          "dbaccesscheck_ts": "Not Available",
+          "wkflowstaskcheck_ts": "Not Available",
+          "tradeqcheck_ts": "Not Available",
+          "tradeqcheck": 9
+        },
+        "findbconnstring": ""
+      },
+      "pssalm_snap": {
+        "summaryStatus": 1,
+        "allocationend": "31-12-2017",
+        "allocationstart": "01-08-2016",
+        "version": "",
+        "allocationdetail": "PSS Daily Refresh Environment",
+        "findbconnstring": "MX3_ALM/MX3_ALM_123@uklpdudasa-scan.uk:1622/VUK11RAZ"
+      },
+      "autofx": {
+        "summaryStatus": 5,
+        "allocationend": "31-12-2017",
+        "allocationstart": "01-01-2017",
+        "ownerlist": "Not Available",
+        "version": "",
+        "allocationdetail": "Testing Automation",
+        "healthcheckstatuses": {
+          "servicescheck_ts": "Not Available",
+          "dbaccesscheck": 9,
+          "wkflowstaskcheck": 9,
+          "ospwarmupcheck": 9,
+          "servicescheck": 9,
+          "ospwarmupcheck_ts": "Not Available",
+          "workflowstasksinerror": "Not Available",
+          "dbaccesscheck_ts": "Not Available",
+          "wkflowstaskcheck_ts": "Not Available",
+          "tradeqcheck_ts": "Not Available",
+          "tradeqcheck": 9
+        },
+        "findbconnstring": ""
+      },
+      "ecdev1": {
+        "summaryStatus": 5,
+        "allocationend": "31-12-2017",
+        "allocationstart": "03-07-2017",
+        "version": "3.1.31.5.en.16",
+        "allocationdetail": "Allocation Details not Entered.",
+        "findbconnstring": "MX3_FX_DEV_08/*******@uklpdddasa-scan.uk:1622/MX3_FX_FI_DEV.uk.standardchartered.com"
+      },
+      "reg_eod_fx": {
+        "summaryStatus": 5,
+        "allocationend": "31-12-2017",
+        "allocationstart": "01-01-2016",
+        "version": "3.1.31.5.en.16",
+        "allocationdetail": "Regression Testing FX Environment",
+        "findbconnstring": "MX3_FX/*******@uklpdudel01a.uk.dev.net:1621/VUK11RAZ"
+      },
+      "dev_keep_fx": {
+        "summaryStatus": 1,
+        "allocationend": "31-12-2017",
+        "allocationstart": "01-05-2017",
+        "version": "3.1.31.5.en.16",
+        "allocationdetail": "Purge/Housekeeping Development",
+        "findbconnstring": "MX3_FX_DEV_02/*******@uklpdddasa-scan.uk:1622/MX3_FX_FI_DEV.uk.standardchartered.com"
+      },
+      "vm_alm": {
+        "summaryStatus": 5,
+        "allocationend": "01-01-1900",
+        "allocationstart": "01-01-1900",
+        "ownerlist": "Not Available",
+        "version": "",
+        "allocationdetail": "No Historical Allocation Found for this Environment.",
+        "healthcheckstatuses": {
+          "servicescheck_ts": "Not Available",
+          "dbaccesscheck": 9,
+          "wkflowstaskcheck": 9,
+          "ospwarmupcheck": 9,
+          "servicescheck": 9,
+          "ospwarmupcheck_ts": "Not Available",
+          "workflowstasksinerror": "Not Available",
+          "dbaccesscheck_ts": "Not Available",
+          "wkflowstaskcheck_ts": "Not Available",
+          "tradeqcheck_ts": "Not Available",
+          "tradeqcheck": 9
+        },
+        "findbconnstring": ""
+      },
+      "pss_eodalm": {
+        "summaryStatus": 1,
+        "allocationend": "31-12-2017",
+        "allocationstart": "01-01-2016",
+        "version": "3.1.31.5.en.16",
+        "allocationdetail": "For troubleshooting of production issues",
+        "findbconnstring": "MX3_ALM_MIG_PF_05/*******@uklpdudasa-scan.uk:1622/MX3_ALM_FI_UAT.uk.standardchartered.com"
+      },
+      "pss_audit_alm": {
+        "summaryStatus": 5,
+        "allocationend": "31-12-2017",
+        "allocationstart": "01-01-2016",
+        "ownerlist": "Not Available",
+        "version": "3.1.31.5.en.15",
+        "allocationdetail": "PSS Audit ALM Env",
+        "healthcheckstatuses": {
+          "servicescheck_ts": "Not Available",
+          "dbaccesscheck": 9,
+          "wkflowstaskcheck": 9,
+          "ospwarmupcheck": 9,
+          "servicescheck": 9,
+          "ospwarmupcheck_ts": "Not Available",
+          "workflowstasksinerror": "Not Available",
+          "dbaccesscheck_ts": "Not Available",
+          "wkflowstaskcheck_ts": "Not Available",
+          "tradeqcheck_ts": "Not Available",
+          "tradeqcheck": 9
+        },
+        "findbconnstring": ""
+      },
+      "dev_bau4_alm": {
+        "summaryStatus": 1,
+        "allocationend": "31-12-2017",
+        "allocationstart": "20-08-2017",
+        "version": "",
+        "allocationdetail": "USBR Country Rollout",
+        "findbconnstring": "MX3_ALM_DEV_05/MX3_ALM_DEV_05_123@uklpdddasa-scan.uk:1622/MX3_ALM_FI_DEV.uk.standardchartered.com"
+      },
+      "dev_bau4_fx": {
+        "summaryStatus": 1,
+        "allocationend": "31-12-2017",
+        "allocationstart": "20-08-2017",
+        "version": "",
+        "allocationdetail": "USBR Country Rollout",
+        "findbconnstring": "MX3_FX_DEV_05/*******@uklpdddasa-scan.uk:1622/MX3_FX_FI_DEV.uk.standardchartered.com"
+      },
+      "country_fx": {
+        "summaryStatus": 1,
+        "allocationend": "31-12-2017",
+        "allocationstart": "01-09-2017",
+        "version": "",
+        "allocationdetail": "Allocation Details not Entered.",
+        "findbconnstring": "MX3_FX_UAT_72/MX3_FX_UAT_72_123@uklpdudasa-scan.uk:1622/MX3_FX_FI_UAT.uk.standardchartered.com"
+      },
+      "pocalm": {
+        "summaryStatus": 1,
+        "allocationend": "31-12-2017",
+        "allocationstart": "10-04-2017",
+        "version": "3.1.31.5.en.16",
+        "allocationdetail": "DevOps",
+        "findbconnstring": "MX3_ALM_MIG_PF_06/*******@uklpdudasa-scan.uk:1622/MX3_ALM_FI_UAT.uk.standardchartered.com"
+      },
+      "mig_build_fx": {
+        "summaryStatus": 5,
+        "allocationend": "31-12-2017",
+        "allocationstart": "01-09-2017",
+        "version": "3.1.31.5.en.16",
+        "allocationdetail": "Staging environment for UAT",
+        "findbconnstring": "MX3_FX/*******@uklpdudel01a.uk.dev.net:1621/VUK07RAZ"
+      },
+      "dev_bau2_alm": {
+        "summaryStatus": 1,
+        "allocationend": "31-12-2017",
+        "allocationstart": "15-05-2017",
+        "version": "3.1.31.5.en.16",
+        "allocationdetail": "PIF Environment",
+        "findbconnstring": "MX3_ALM_DEV_03/*******@uklpdddasa-scan.uk:1622/MX3_ALM_FI_DEV.uk.standardchartered.com"
+      }
+    }
+  
