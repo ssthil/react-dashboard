@@ -4,14 +4,18 @@ import PanelHeader from './PanelHeader';
 import PanelFooter from './PanelFooter';
 
 import {Button, Modal} from 'react-bootstrap';
+import { TestNames } from './TestNamesConfig';
 //import data from './data.json';
 
-const testNames = {
+/* const testNames = {
     coreServices: "Core Services",
     tradeQuery: "Trade Query",
     workflowsTasks: "Workflows' Tasks",
     dbConnection: "DB Connection"
-}
+} */
+
+const testNames = TestNames;
+console.log(TestNames);
 
 class SummaryPage extends Component {
     constructor(props) {
@@ -149,22 +153,22 @@ class SummaryPage extends Component {
                                     <TableHeader />
                                     <tbody>     
                                     <tr className={this.dynamicClassname(result, key, 'servicescheck')}>
-                                        <td>{testNames.coreServices}</td>
+                                        <td>{testNames[0]}</td>
                                         <td>{this.dynamicIconForStatus(result, key, "servicescheck")}</td>
                                         <td>{result[key].healthcheckstatuses.servicescheck_ts}</td>
                                     </tr>
                                     <tr className={this.dynamicClassname(result, key, 'tradeqcheck')}>
-                                        <td>{testNames.tradeQuery}</td>
+                                        <td>{testNames[1]}</td>
                                         <td>{this.dynamicIconForStatus(result, key, "tradeqcheck")}</td>
                                         <td>{result[key].healthcheckstatuses.tradeqcheck_ts}</td>
                                     </tr>
                                     <tr className={this.dynamicClassname(result, key, 'wkflowstaskcheck')}>
-                                        <td>{testNames.workflowsTasks}</td>
+                                        <td>{testNames[2]}</td>
                                         <td>{this.dynamicIconForStatus(result, key, "wkflowstaskcheck")}</td>
                                     <td>{result[key].healthcheckstatuses.wkflowstaskcheck_ts}</td>
                                     </tr>
                                     <tr className={this.dynamicClassname(result, key, 'dbaccesscheck')}>
-                                        <td>{testNames.dbConnection}</td>
+                                        <td>{testNames[3]}</td>
                                         <td>{this.dynamicIconForStatus(result, key, "dbaccesscheck")}</td>
                                     <td>{result[key].healthcheckstatuses.dbaccesscheck_ts}</td>
                                     </tr>
