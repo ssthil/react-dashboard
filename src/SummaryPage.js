@@ -4,7 +4,7 @@ import PanelHeader from './PanelHeader';
 import PanelFooter from './PanelFooter';
 
 import {Button, Modal} from 'react-bootstrap';
-import { TestNames } from './TestNamesConfig';
+import { TestNames } from './StaticNamesConfig';
 //import newData from './data-new.json';
 
 /* const testNames = {
@@ -61,20 +61,25 @@ class SummaryPage extends Component {
     }
 
     newFetchData() { 
-        fetch('https://api.myjson.com/bins/6o5kv')  //'https://api.myjson.com/bins/6o5kv'
+        /* fetch('https://api.myjson.com/bins/6o5kv')  //'https://api.myjson.com/bins/qhw0v', 
         .then( data => data.json())
         .then( result => this.setState({
             newData: result
-        })) 
+        }))  */
 
-        /*fetch("https://api.myjson.com/bins/qhw0v").then(function(res) {
-            // res instanceof Response == true.
+        fetch("https://api.myjson.com/bins/gkm53")
+        .then((res) => {
             if (res.ok) {
-              res.json().then(function(data) {
-                console.log(data.response);
-              });
-            } 
-          });*/
+              res.json()
+              .then((data) => this.setState({
+                newData: data.response.data
+              })
+                /* {
+                  console.log(data.response.data)
+                } */
+            );
+            }
+        });
     }
     
 
@@ -227,10 +232,10 @@ class SummaryPage extends Component {
                                     <div className="owner-list">
                                         <h5>Owner List</h5>
                                         <hr />
-                                        {/* result[key].ownerlist.map((name, i) => (
+                                        {result[key].ownerlist.map((name, i) => (
                                             <p key={i}>{name}</p>
-                                        )) */
-                                        result[key].ownerlist
+                                        ))
+                                        //result[key].ownerlist
                                         }
                                     </div>
                                 }
