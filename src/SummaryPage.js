@@ -15,7 +15,7 @@ import { TestNames } from './StaticNamesConfig';
 } */
 
 const testNames = TestNames;
-console.log(TestNames);
+const apiUrl = "https://api.myjson.com/bins/gkm53";
 
 class SummaryPage extends Component {
     constructor(props) {
@@ -47,18 +47,18 @@ class SummaryPage extends Component {
         /* this.setState({
             newData: newData
         }) */
-        this.fetchData();
+       // this.fetchData();
         this.newFetchData()
         
     }
 
-    fetchData() {
+    /* fetchData() {
         fetch('https://api.myjson.com/bins/76rbz')
         .then( data => data.json())
         .then( result => this.setState({
             data: result
         }))
-    }
+    } */
 
     newFetchData() { 
         /* fetch('https://api.myjson.com/bins/6o5kv')  //'https://api.myjson.com/bins/qhw0v', 
@@ -67,7 +67,7 @@ class SummaryPage extends Component {
             newData: result
         }))  */
 
-        fetch("https://api.myjson.com/bins/gkm53")
+        fetch(apiUrl)
         .then((res) => {
             if (res.ok) {
               res.json()
