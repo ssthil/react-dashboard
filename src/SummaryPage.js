@@ -5,7 +5,7 @@ import PanelFooter from './PanelFooter';
 
 import {Button, Modal} from 'react-bootstrap';
 import { TestNames } from './StaticNamesConfig';
-//import newData from './data-new.json';
+import newData from './data-new.json';
 
 /* const testNames = {
     coreServices: "Core Services",
@@ -15,7 +15,11 @@ import { TestNames } from './StaticNamesConfig';
 } */
 
 const testNames = TestNames;
-const apiUrl = "https://api.myjson.com/bins/gkm53";
+//const apiUrl = "https://api.myjson.com/bins/gkm53";
+//const apiUrl = process.env.REACT_APP_API;
+//const apiUrl = "http://10.193.105.237:8080/eolf/getstat?envname=all&&testresreq=all";
+
+// const apiUrl = process.env.API;
 
 class SummaryPage extends Component {
     constructor(props) {
@@ -26,6 +30,8 @@ class SummaryPage extends Component {
             setKeyName: '',
             newData:[]
         }
+
+        //console.log(process.env.REACT_APP_API)
     }
 
     modalOpen(uid) {
@@ -44,11 +50,11 @@ class SummaryPage extends Component {
     }
 
     componentDidMount() {
-        /* this.setState({
+         this.setState({
             newData: newData
-        }) */
-       // this.fetchData();
-        this.newFetchData()
+        }) 
+        // this.fetchData();
+        // this.newFetchData()
         
     }
 
@@ -61,25 +67,22 @@ class SummaryPage extends Component {
     } */
 
     newFetchData() { 
-        /* fetch('https://api.myjson.com/bins/6o5kv')  //'https://api.myjson.com/bins/qhw0v', 
+        fetch('https://api.myjson.com/bins/6o5kv')  //'https://api.myjson.com/bins/qhw0v', 
         .then( data => data.json())
         .then( result => this.setState({
             newData: result
-        }))  */
+        })) 
 
-        fetch(apiUrl)
+        /* fetch(apiUrl)
         .then((res) => {
             if (res.ok) {
               res.json()
               .then((data) => this.setState({
                 newData: data.response.data
               })
-                /* {
-                  console.log(data.response.data)
-                } */
             );
             }
-        });
+        }); */
     }
     
 
